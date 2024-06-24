@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <div class="contenedor__todo">
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>Ya tienes una cuenta</h3>
+                    <p>Inicia sesion para entrar a la pagina</p>
+                    <button id="btn__iniciar-sesion">Iniciar sesion</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>¿Aun no tienes una cuenta?</h3>
+                    <p>Registrate para iniciar sesion</p>
+                    <button id="btn__registrarse">Registrarse</button>
+                </div>
+            </div>
+            <!--Formulario de login y register-->
+            <div class="contenedor__login-register">
+                <!--Login-->
+                <form action="" class="formulario__login">
+                    <h2>Iniciar sesion</h2>
+                    <input type="text" placeholder="Correo electronico">
+                    <input type="password" placeholder="Contraseña" id="">
+                    <button>Entrar</button>
+                </form>
+                <!--Registro-->
+                <form action="" class="formulario__register">
+                    <h2>Registrarse</h2>
+                    <input type="text" placeholder="Nombre completo" id="">
+                    <input type="text" placeholder="Correo electronico">
+                    <input type="text" placeholder="Usuario">
+                    <input type="password" placeholder="Contraseña" id="">
+                    <button>Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
